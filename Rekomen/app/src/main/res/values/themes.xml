@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Rekomen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Add button background color -->
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="Theme.Rekomen" parent="Base.Theme.Rekomen" />
+
+    <!-- Button style with background color -->
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/primary</item>
+    </style>
+</resources>

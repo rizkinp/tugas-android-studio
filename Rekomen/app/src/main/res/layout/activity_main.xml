@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back !"
+        android:gravity="center"
+        android:layout_marginTop="75dp"
+        android:textColor="@color/primary"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Login, untuk melanjutkan"
+        android:gravity="center"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/secondary"
+        />
+
+    <LinearLayout
+        android:id="@+id/containerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border"
+        android:paddingHorizontal="10dp">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LOGIN"
+            android:fontFamily="@font/poppinsmedium"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/username"
+            android:hint="Username"
+            android:paddingTop="5dp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColorHint="@color/shadow"
+            android:paddingLeft="15dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/password"
+            android:paddingTop="5dp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColorHint="@color/shadow"
+            android:hint="Password"
+            android:paddingLeft="15dp" />
+
+        <!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/primary"-->
+<!--            />-->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Login"
+            android:layout_marginBottom="20dp"
+            style="@style/ButtonStyle"
+            android:background="@drawable/button_shape" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Belum punya akun?"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:paddingBottom="14dp"/>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

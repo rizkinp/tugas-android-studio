@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_home"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="menu_home" />
+
+    <item
+        android:id="@+id/menu_item_add_todo"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="menu_add_todo" />
+</menu>

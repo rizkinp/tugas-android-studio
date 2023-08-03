@@ -1,0 +1,213 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:gravity="center_horizontal"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/bg_home"-->
+<!--    android:padding="16dp"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="left"-->
+<!--            android:orientation="vertical"-->
+<!--            android:background="@drawable/bg_home"-->
+<!--            android:padding="10dp">-->
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/border"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="10dp">-->
+<!--                &lt;!&ndash; menambahkan background dengan drawable border &ndash;&gt;-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_topic"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="10dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:text="Topic"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:drawableLeft="@drawable/ic_topik"-->
+<!--                    android:drawablePadding="5dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_description"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="10dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:text="Description"-->
+<!--                    android:drawableLeft="@drawable/ic_text"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:drawablePadding="5dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_date"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="10dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:text="Date"-->
+<!--                    android:drawableLeft="@drawable/ic_date"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:drawablePadding="5dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_time"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="10dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:text="Time"-->
+<!--                    android:drawableLeft="@drawable/ic_jam"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:drawablePadding="5dp"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:itemBackground="@color/pink"-->
+<!--        app:itemTextColor="@android:color/white"-->
+<!--        app:itemIconTint="@android:color/white"-->
+<!--        app:labelVisibilityMode="selected"-->
+<!--        android:background="@color/pink"-->
+<!--        android:id="@+id/bottomNavigationView"-->
+<!--        app:menu="@menu/menu_bottom_nav"/>-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:visibility="visible"-->
+<!--        android:id="@+id/frameLayout">-->
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/fab"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            app:srcCompat="@android:drawable/ic_input_add" />-->
+<!--    </FrameLayout>-->
+
+
+
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/border"-->
+<!--    android:layout_marginBottom="10dp"-->
+<!--    android:padding="22dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_topic"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="18sp"-->
+<!--        android:drawableLeft="@drawable/ic_text"-->
+<!--        android:paddingRight="28dp"-->
+<!--        android:drawablePadding="8dp"-->
+<!--        android:text="Hay"-->
+<!--        android:typeface="monospace"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_description"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:drawableLeft="@drawable/ic_text"-->
+<!--        android:paddingRight="28dp"-->
+<!--        android:drawablePadding="8dp"-->
+<!--        android:textSize="14sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_date"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:drawableLeft="@drawable/ic_text"-->
+<!--        android:paddingRight="28dp"-->
+<!--        android:drawablePadding="8dp"-->
+<!--        android:textSize="14sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_time"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:drawableLeft="@drawable/ic_text"-->
+<!--        android:paddingRight="28dp"-->
+<!--        android:drawablePadding="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:textSize="14sp" />-->
+
+<!--</LinearLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:layout_marginBottom="10dp"
+    android:padding="22dp">
+
+    <TextView
+        android:id="@+id/tv_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/ic_topik"
+        android:paddingRight="28dp"
+        android:drawablePadding="8dp"
+        android:text="Topic"
+        android:typeface="monospace"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Description"
+        android:drawableLeft="@drawable/ic_text"
+        android:paddingRight="28dp"
+        android:drawablePadding="10dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_date"
+        android:text="Date"
+        android:paddingRight="28dp"
+        android:drawablePadding="8dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_jam"
+        android:paddingRight="28dp"
+        android:drawablePadding="8dp"
+        android:text="Time"
+        android:layout_marginTop="8dp"
+        android:textSize="17sp" />
+
+</LinearLayout>

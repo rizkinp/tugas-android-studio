@@ -1,0 +1,298 @@
+<!--<FrameLayout android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@color/pink"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="5dp">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:src="@drawable/logo"-->
+<!--            android:layout_gravity="center_horizontal"/>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--            xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--            xmlns:tools="http://schemas.android.com/tools"-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:cardCornerRadius="20dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="25dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/dialog_title"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="DAFTAR AKUN"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="20dp" />-->
+
+<!--                <EditText-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:hint="Nama"-->
+<!--                    android:drawableLeft="@drawable/user"-->
+<!--                    android:drawablePadding="10dp"-->
+<!--                    android:id="@+id/editTextName"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <EditText-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:hint="Username"-->
+<!--                    android:drawableLeft="@drawable/user"-->
+<!--                    android:drawablePadding="10dp"-->
+<!--                    android:id="@+id/editTextUsername"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <EditText-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:hint="Email"-->
+<!--                    android:drawableLeft="@drawable/mail"-->
+<!--                    android:drawablePadding="10dp"-->
+<!--                    android:id="@+id/editTextEmail"-->
+<!--                    android:inputType="textEmailAddress"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <EditText-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:hint="Password"-->
+<!--                    android:drawableLeft="@drawable/padlock"-->
+<!--                    android:drawablePadding="10dp"-->
+<!--                    android:id="@+id/editTextPassword"-->
+<!--                    android:inputType="textPassword"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Jenis Kelamin"-->
+<!--                    android:drawablePadding="10dp"-->
+<!--                    android:drawableLeft="@drawable/gender"/>-->
+
+<!--                <RadioGroup-->
+<!--                    android:id="@+id/radioGroupGender"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/radioButtonMale"-->
+<!--                        android:text="Laki-laki"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/radioButtonFemale"-->
+<!--                        android:text="Perempuan"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"/>-->
+
+<!--                </RadioGroup>-->
+
+<!--                <TextView-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:drawableLeft="@drawable/student"-->
+<!--                    android:drawablePadding="10dp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Status Pelajar"/>-->
+
+<!--                <Spinner-->
+<!--                    android:id="@+id/spinnerStatus"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <Button-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:id="@+id/buttonRegister"-->
+<!--                    android:text="SIGN UP"-->
+<!--                    android:background="@drawable/oval"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Sudah punya akun?" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/my_button"-->
+<!--                        style="@android:style/Widget.TextView"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Klik disini"-->
+<!--                        android:textColor="#B60C0C" />-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+<!--    </LinearLayout>-->
+<!--</FrameLayout>-->
+
+
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_app_new"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="25dp">
+
+                <TextView
+                    android:id="@+id/dialog_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="DAFTAR AKUN"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:hint="Name"
+                    android:drawableLeft="@drawable/user"
+                    android:drawablePadding="10dp"
+                    android:id="@+id/editTextName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:hint="Username"
+                    android:drawableLeft="@drawable/user"
+                    android:drawablePadding="10dp"
+                    android:id="@+id/editTextUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:hint="Email"
+                    android:drawableLeft="@drawable/mail"
+                    android:drawablePadding="10dp"
+                    android:id="@+id/editTextEmail"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:hint="Password"
+                    android:drawableLeft="@drawable/padlock"
+                    android:drawablePadding="10dp"
+                    android:id="@+id/editTextPassword"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Kelamin"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/gender"/>
+
+                <RadioGroup
+                    android:id="@+id/radioGroupGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/radioButtonMale"
+                        android:text="Laki-laki"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <RadioButton
+                        android:id="@+id/radioButtonFemale"
+                        android:text="Perempuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/student"
+                    android:drawablePadding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status Pelajar"/>
+
+                <Spinner
+                    android:id="@+id/spinnerStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/buttonRegister"
+                    android:text="SIGN UP"
+                    android:background="@drawable/round_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <Button
+                    android:id="@+id/my_button"
+                    style="@android:style/Widget.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Sudah punya akun? Login disini"
+                    android:textColor="#03A9F4" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</FrameLayout>

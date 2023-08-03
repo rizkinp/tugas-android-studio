@@ -1,0 +1,9 @@
+<resources>
+    <array name="color_options">
+        <item>@color/black</item>
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/green</item>
+        <item>@color/yellow</item>
+    </array>
+</resources>

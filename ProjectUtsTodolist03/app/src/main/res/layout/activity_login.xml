@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:textColor="#03A9F4"
+        android:textSize="36sp" />
+
+    <com.example.projectutstodolist03.RoundEditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Username"
+        android:padding="10dp"
+        android:background="@drawable/round_edittext"
+        android:drawableStart="@drawable/ic_uname"
+        android:inputType="text"
+        android:textColorHint="#AF6F10"
+        android:textColor="#FABF69" />
+
+    <com.example.projectutstodolist03.RoundEditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:padding="10dp"
+        android:background="@drawable/round_edittext"
+        android:drawableStart="@drawable/ic_pass"
+        android:inputType="textPassword"
+        android:textColorHint="#AF6F10"
+        android:textColor="#FABF69" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Login"
+            android:background="@drawable/round_button"/>
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Belum punya akun? Daftar disini"
+        android:textColor="#03A9F4"
+        android:textSize="16sp" />
+
+</LinearLayout>
+
+
+
+
+
+
+    <!--
+
+    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp"-->
+<!--    android:background="@drawable/bg">-->
+
+<!--&lt;!&ndash;    Logo&ndash;&gt;-->
+<!--    <ImageView-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:src="@drawable/ic"-->
+<!--        android:contentDescription="Logo"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:layout_marginTop="16dp" />-->
+
+<!--&lt;!&ndash;    Edittext Username&ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/usernameEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:hint="Username"-->
+<!--        android:inputType="text"-->
+<!--        android:background="@drawable/round_edittext"-->
+<!--        android:textColorHint="#757575"-->
+<!--        android:paddingStart="16dp"-->
+<!--        android:paddingEnd="16dp"-->
+<!--        android:drawablePadding="8dp">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/user"-->
+<!--            android:contentDescription="Icon Username" />-->
+
+<!--    </EditText>-->
+<!--    -->
+<!--    <EditText-->
+<!--        android:id="@+id/passwordEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:hint="Password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:background="@drawable/round_edittext"-->
+<!--        android:textColorHint="#757575"-->
+<!--        android:paddingStart="16dp"-->
+<!--        android:paddingEnd="16dp"-->
+<!--        android:drawablePadding="8dp">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/view"-->
+<!--            android:contentDescription="Icon Password" />-->
+
+<!--    </EditText>-->
+
+<!--&lt;!&ndash;    <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/passwordEditText"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:hint="Password"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:inputType="textPassword"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:background="@drawable/round_edittext"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColorHint="#757575"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:paddingStart="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:paddingEnd="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:drawableLeft="@drawable/ic_password"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:drawablePadding="8dp"/>&ndash;&gt;-->
+
+<!--    <Button-->
+<!--        android:id="@+id/loginButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="Login"-->
+<!--        android:background="@drawable/round_button"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="or"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:layout_marginTop="16dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/registerButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Register"-->
+<!--        android:background="@drawable/round_button"/>-->
+
+<!--</LinearLayout>-->
